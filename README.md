@@ -15,7 +15,7 @@ To import the library using maven, add the following to your `pom.xml`:
 <dependency>
     <groupId>dev.vince</groupId>
     <artifactId>minecraft-deobfuscated</artifactId>
-    <version>1.8.9</version>
+    <version>1.8.8</version>
 </dependency>
 ```
 otherwise, you can download the jar from the [package]() page.
