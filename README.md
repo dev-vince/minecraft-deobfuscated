@@ -2,6 +2,35 @@
 
 This is a deobfuscated version of Minecraft 1.8.8. It is intended for use in libraries that need to access Minecraft's code, but do not want to depend on the obfuscated version of Minecraft.
 
+<!-- TOC -->
+* [minecraft-deobfuscated](#minecraft-deobfuscated)
+    * [Examples](#examples)
+  * [Versions](#versions)
+  * [Usage](#usage)
+<!-- TOC -->
+
+## Examples 
+### [client-commons](https://github.com/dev-vince/client-commons)
+
+```java
+package dev.vince.commons;
+
+import net.minecraft.client.Minecraft;
+
+/**
+ * The MinecraftInterface is a class that allows you to access multiple Minecraft variables/methods without having to use the Minecraft class.
+ * It is recommended to use this class instead of the Minecraft class.
+ * It is also recommended to use this class instead of creating instance fields extending Minecraft.
+ *
+ * @author dev-vince
+ */
+public interface MinecraftInterface {
+    Minecraft mc = Minecraft.getMinecraft();
+}
+```
+
+
+
 ## Versions
 
 | Supported Versions | Package                                |
