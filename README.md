@@ -15,7 +15,7 @@ To import the library using maven, add the following to your `pom.xml`:
 <repositories>
     <repository>
         <id>github</id>
-        <url>https://repo.vince.dev/repository/maven-public/</url>
+        <url>https://maven.pkg.github.com/dev-vince/minecraft-deobfuscated</url>
     </repository>
 </repositories>
 
