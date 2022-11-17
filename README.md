@@ -12,10 +12,19 @@ This is a deobfuscated version of Minecraft 1.8.8. It is intended for use in lib
 To import the library using maven, add the following to your `pom.xml`:
 
 ```xml
-<dependency>
-    <groupId>dev.vince</groupId>
-    <artifactId>minecraft-deobfuscated</artifactId>
-    <version>1.8.8</version>
-</dependency>
+<repositories>
+    <repository>
+        <id>github</id>
+        <url>https://repo.vince.dev/repository/maven-public/</url>
+    </repository>
+</repositories>
+
+<dependencys>
+    <dependency>
+        <groupId>dev.vince</groupId>
+        <artifactId>minecraft-deobfuscated</artifactId>
+        <version>1.8.8</version>
+    </dependency>
+</dependencys>
 ```
-otherwise, you can download the jar from the [package]() page.
+otherwise, you can download the jar from the [package](https://github.com/dev-vince/minecraft-deobfuscated/packages) page.

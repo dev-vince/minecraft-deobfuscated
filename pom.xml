@@ -6,7 +6,7 @@
 
     <groupId>dev.vince</groupId>
     <artifactId>minecraft-deobfuscated</artifactId>
-    <version>1.8.8-MCP</version>
+    <version>1.8.8</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
