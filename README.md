@@ -52,7 +52,7 @@ To import the library using maven, add the following to your `pom.xml`:
     <dependency>
         <groupId>dev.vince</groupId>
         <artifactId>minecraft-deobfuscated</artifactId>
-        <version>1.8.8-patched</version>
+        <version>1.8.8</version>
     </dependency>
 </dependencys>
 ```
